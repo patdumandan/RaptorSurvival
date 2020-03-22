@@ -29,8 +29,7 @@ surv_mod1=stan(model_code="
 
   real <lower=0> alpha;// global intercept
   real <lower=0>alpha_sp[Nsp]; //random intercept per species
-  real<lower=0> beta1; //slope est.for mass
-  real<lower=0> phi; //error term
+  real<lower=0> beta1; //slope 
   real<lower=0> sigma_sp;//errors for random effects
   real shape1;
   real shape2;
