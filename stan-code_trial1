@@ -1,0 +1,81 @@
+#Meta-analysis of survival estimates of raptors of the world#######
+
+surv=read.csv(file.choose(), h=T)
+str(surv)
+plot(surv$survival.est~surv$Average.mass..kg.)
+surv$mass=surv$Average.mass..kg.
+N=length(surv$Species)
+survival=surv$survival.est
+mass=surv$Average.mass..kg.
+species=surv$spcode
+surv$spcode=as.integer(surv$Species)
+Nsp=40
+
+#model code#######
+
+surv_mod1=stan(model_code="
+  
+  data{
+
+  int<lower=0> N; // no.of obs
+  real <lower=0, upper=1> survival[N]; //survival estimate
+  real <lower=0> mass[N];// ave.mass in kg
+  int species[N]; //ID of each species
+  int Nsp; //no.of species
+
+                }
+                
+  parameters {
+
+  real <lower=0> alpha;// global intercept
+  real <lower=0>alpha_sp[Nsp]; //random intercept per species
+  real<lower=0> beta1; //slope est.for mass
+  real<lower=0> phi; //error term
+  real<lower=0> sigma_sp;//errors for random effects
+  real shape1;
+  real shape2;
+              }
+     
+  transformed parameters{
+  vector [N] surv_mu; //estimated survival 
+
+  
+  for (i in 1:N){
+  
+  surv_mu[i]= logit(alpha+beta1*mass[i]);
+  }
+  
+
+  
+  }
+  model {
+  //priors
+  
+  alpha~ normal (0,2.5);
+  beta1~ normal (0,2.5);
+  phi~ normal (0,2.5);
+  sigma_sp ~cauchy(0,2.5);
+  shape1~ normal(2,1);
+  shape2~ normal(1,1);
+  
+  for (i in 1:N){
+  
+  survival[i]~ beta(shape1, shape2);
+
+  }
+
+  for(j in 1:Nsp){
+           alpha_sp[j]~normal(alpha, sigma_sp);
+  }
+  }
+  generated quantities {
+  
+  vector[N] log_lik;
+  
+   for (n in 1:N) {
+    log_lik[n] = beta_lpdf(survival[n] | shape1, shape2);
+   }
+  }", data=list(N=N, survival=survival, mass=mass,
+                           species=species, Nsp=40), chains=1, iter=100)
+
+
