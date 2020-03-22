@@ -1,4 +1,6 @@
 #Meta-analysis of survival estimates of raptors of the world#######
+require(rstan)
+require(rstanarm)
 
 surv=read.csv(file.choose(), h=T)
 str(surv)
@@ -41,7 +43,7 @@ surv_mod1=stan(model_code="
   
   for (i in 1:N){
   
-  surv_mu[i]= logit(alpha+beta1*mass[i]);
+  surv_mu[i]= inv_logit(alpha+beta1*mass[i]);
   }
   
 
@@ -52,7 +54,6 @@ surv_mod1=stan(model_code="
   
   alpha~ normal (0,2.5);
   beta1~ normal (0,2.5);
-  phi~ normal (0,2.5);
   sigma_sp ~cauchy(0,2.5);
   shape1~ normal(2,1);
   shape2~ normal(1,1);
@@ -75,6 +76,6 @@ surv_mod1=stan(model_code="
     log_lik[n] = beta_lpdf(survival[n] | shape1, shape2);
    }
   }", data=list(N=N, survival=survival, mass=mass,
-                           species=species, Nsp=40), chains=1, iter=100)
+                           species=species, Nsp=40), chains=2, iter=100)
 
-
+launch_shinystan(surv_mod1)
