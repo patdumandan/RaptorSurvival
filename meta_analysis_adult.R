@@ -44,6 +44,7 @@ surv_mod3=stan(model_code="
   real <lower=0> beta1; //slope age
   real <lower=0> beta2; //slope indirect effect
   real<lower=0> sigma_sp;//errors for random effects
+ real<lower=0> sigma_st;//errors for random effects
   real <lower=0> phi;
               }
    
