@@ -107,4 +107,13 @@ generated quantities {
              species=species,study=surv$stcode, Nst=65, Nsp=36), chains=2, iter=2000, control = list(max_treedepth = 12))
 
 
-
+#model diagnostics
+saveRDS(surv_mod5, file="surv_betabinom_raneff.RDS")
+post5=rstan::extract(surv_mod5)$log_lik #predicted number of survivors
+mean(post5) #205.4579
+mean(surv$total.survived) #205.3369
+post51=rstan::extract(surv_mod5)$pred_surv #predicted survival est
+matplot(t(post51), type="l", ylim=c(0.4,0.9))
+points(surv$survival.est, col="red", lwd=2)
+mean(post51) #0.7725
+mean(surv$survival.est) #0.7479
