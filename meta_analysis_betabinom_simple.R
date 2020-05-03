@@ -1,6 +1,7 @@
 #beta regression  ###########
-#fixed effects: mass, type of estimate (direct/indirect survival based on methods used)
-#species and study as random effect
+#no random effects
+#mass as predictor
+#dropped studies that did not report sample size
 
 
 #data#######
