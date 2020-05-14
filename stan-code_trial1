@@ -1,4 +1,6 @@
 #beta regression  ###########
+#use all datapoints in Newton database
+#use as reference to inform priors for phi in beta-binomial model
 #fixed effects: mass, type of estimate (direct/indirect survival based on methods used)
 #species as random effect
 
