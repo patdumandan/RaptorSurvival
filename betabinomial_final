@@ -1,4 +1,5 @@
-#beta binomial###########
+#final model: beta binomial###########
+
 #use subset of data in Newton database
 #fixed effects: mass, type of estimate (direct/indirect survival based on methods used)
 #species and study as random effect
