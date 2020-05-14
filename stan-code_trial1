@@ -43,7 +43,7 @@ surv_mod5=stan(model_code="
   real <lower=0> alpha;// global intercept
   real <lower=0> alpha_sp[Nsp]; //random intercept per species
   real <lower=0> alpha_st [Nst];// random intercept per study
-  real <lower=0> beta1; //slope age
+  real <lower=0> beta1; //slope mass
   real <lower=0> beta2; //slope indirect effect
   real<lower=0> sigma_sp;//errors for random effects
    real<lower=0> sigma_st;//errors for random effects
