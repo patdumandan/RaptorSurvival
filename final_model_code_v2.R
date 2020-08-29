@@ -129,4 +129,3 @@ print(surv_mod7)
 
 #model output
 print(surv_mod7, pars=c("alpha", "beta1", "beta2"))
-
