@@ -61,6 +61,6 @@ transformed parameters{
   }",
 
 data= list(N= length(surv$Reference), Nsp=36, Nst=65, species=surv$spcode, study=surv$stcode,
-mass=surv$Average.mass..kg., y=surv$estimated.survived, n=surv$sample.size, death_type=surv$est.type),
+           mass=surv$Average.mass..kg., y=surv$estimated.survived, n=surv$sample.size, death_type=surv$est.type),
 chains=2, iter=200)
 
