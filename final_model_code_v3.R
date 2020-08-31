@@ -7,7 +7,7 @@
 
 #run paralle chains
 require(rstan)
-mc.cores = parallel::detectCores()
+options(mc.cores = parallel::detectCores())
 rstan_options(auto_write = TRUE)
 
 #data#######
@@ -25,13 +25,13 @@ surv$estimate=(surv$est.type-mean(surv$est.type))/(2*sd(surv$est.type))
 N=length(surv$Species) #no.of rows
 surv$spcode=as.integer(surv$Species)
 surv$stcode=as.integer(surv$Reference)
-
+surv$famcode=as.integer(surv$family)
 Nsp=36 #no.of species
 Nst=65 #no of studies
+Nfam=6
 
 
-
-surv_mod9=stan(model_code="
+surv_mod_spstfam=stan(model_code="
  data{
 
   int<lower=0> N; // no.of obs
@@ -39,9 +39,11 @@ surv_mod9=stan(model_code="
   int <lower=0>  n[N];       // total 
   vector [N] mass;// ave.mass in kg
   int species[N]; //ID of each species
+  int family [N]; //ID of family
   int study [N]; //ID of study
   int Nsp; //no.of species
   int Nst; //no.of studies
+  int Nfam;// no. of families
   vector  [N]death_type;// direct/indirect
 
                 }
@@ -50,10 +52,12 @@ surv_mod9=stan(model_code="
   real  alpha;// global intercept
   real alpha_sp[Nsp]; //random intercept per species
   real alpha_st [Nst];// random intercept per study
+  real alpha_fam [Nfam];// random intercept per family
   real  beta1; //slope mass
   real  beta2; //slope indirect effect
   real<lower=0> sigma_sp;//errors for random effects
   real<lower=0> sigma_st;//errors for random effects
+  real<lower=0> sigma_fam;
   real <lower=0> phi;
   real <lower=0, upper=1> pred_surv[N] ;
               }
@@ -68,7 +72,7 @@ surv_mod9=stan(model_code="
   
   for (i in 1:N){
   
-  surv_mu[i]= inv_logit(alpha_sp[species[i]]+alpha_st[study[i]]+beta1*mass[i]+beta2*death_type[i]);
+  surv_mu[i]= inv_logit(alpha_sp[species[i]]+alpha_st[study[i]]+alpha_fam[family[i]]+beta1*mass[i]+beta2*death_type[i]);
   }
   
   A = surv_mu * phi;
@@ -85,7 +89,8 @@ surv_mod9=stan(model_code="
   beta2~ normal (0,1);
   sigma_sp ~normal(0,1);
   sigma_st~ normal(0,1);
- 
+  sigma_fam~ normal(0,1);
+  
   phi ~normal(7,1);// use info. from beta regression of all juv and adult
   
   //model likelihood:
@@ -95,7 +100,7 @@ surv_mod9=stan(model_code="
  
   alpha_sp~normal(alpha, sigma_sp);
   alpha_st~normal(alpha, sigma_st);
-
+  alpha_fam~normal(alpha, sigma_fam);
    
   }
 
@@ -107,17 +112,17 @@ generated quantities {
    
   }
 ", data=list(N=length(surv$Species), y=surv$estimated.survived, n=surv$sample.size, mass=surv$mass, death_type=surv$estimate,
-             species=surv$spcode,study=surv$stcode, Nst=65, Nsp=36), chains=4, iter=3000, warmup=1000, control=list(adapt_delta=0.999, max_treedepth=12))
+             species=surv$spcode,family=surv$famcode, study=surv$stcode,Nfam=6, Nst=65, Nsp=36), chains=4, iter=3000 , warmup=1000) #, control=list(adapt_delta=0.999, max_treedepth=12))
 
-saveRDS(surv_mod9, file="meta_survival_final_v2.RDS")
+saveRDS(surv_mod_spstfam, file="meta_survival_spstfam.RDS")
 pairs(stan_model=surv_mod7, pars=c("alpha", "beta1", "beta2", "lp__", "energy__", "sigma_sp", "sigma_st", "phi"))
-post=rstan::extract(surv_mod9)$pred_y #predicted survival estimate
+post=rstan::extract(surv_mod_spstfam)$pred_y #predicted survival estimate
 length(post)
 mean(post) 
 mean(surv$survival.est) #0.72
 
 #model output visualization
-print(surv_mod9, pars=c("alpha", "beta1", "beta2", "alpha_sp"))
+print(surv_mod_spstfam, pars=c("alpha", "beta1", "beta2", "alpha_sp"))
 
 jpeg("predsplot.jpeg", width = 4, height = 4, units = 'in', res = 300)
 matplot(surv$Average.mass..kg.,t(post), type="l", col="grey", xlab="average mass (kg)", ylab="survival estimate", ylim=c(0.0,1.0))
@@ -125,7 +130,8 @@ points(surv$survival.est~surv$Average.mass..kg., col="black", pch=19)
 preds=read.csv(file.choose(), h=T) #estimated survival of other species
 points(preds$survival..mod9.~preds$mass..kg., col="white", pch=19)#
 dev.off()
+
 print(surv_mod7)
 
 #model output
-print(surv_mod7, pars=c("alpha", "beta1", "beta2", "alpha_st"))
+print(meta_survival_final_v3, pars=c("alpha", "beta1", "beta2", "alpha_sp"))
