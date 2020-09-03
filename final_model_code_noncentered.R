@@ -32,7 +32,7 @@ Nst=65 #no of studies
 Nfam=6
 
 
-surv_mod_spstfam_nonc=stan(model_code="
+surv_mod_spstfam_nonc2=stan(model_code="
  data{
 
   int<lower=0> N; // no.of obs
@@ -45,9 +45,10 @@ surv_mod_spstfam_nonc=stan(model_code="
   int Nsp; //no.of species
   int Nst; //no.of studies
   int Nfam;// no. of families
-  vector  [N]death_type;// direct/indirect
+  vector[N] death_type;// direct/indirect
 
-                }
+ }
+                
  parameters {
 
   real alpha;// global intercept
@@ -65,25 +66,25 @@ surv_mod_spstfam_nonc=stan(model_code="
   vector <lower=0, upper=1> [N] surv_mu; //mean estimated survival 
   vector <lower=0> [N] A;
   vector <lower=0> [N] B;
-   real alpha_sp[Nsp]; //random intercept per species
-  real alpha_st [Nst];// random intercept per study
-  real alpha_fam [Nfam];// random intercept per family
+  vector [Nsp] alpha_sp; //random intercept per species
+  vector [Nst] alpha_st;// random intercept per study
+  vector [Nfam] alpha_fam;// random intercept per family
   
   for (j in 1:Nsp) {
   
   alpha_sp[j]= alpha+phi*sigma_sp[j];
   }
-  
+
    for (k in 1:Nst) {
   
   alpha_st[k]= alpha+phi*sigma_st[k];
    }
-  
+ 
    for (m in 1:Nfam) {
   
   alpha_fam[m]= alpha+phi*sigma_fam[m];
   }
-  
+ 
   
   //model:
   
@@ -93,7 +94,7 @@ surv_mod_spstfam_nonc=stan(model_code="
   }
   
   A = surv_mu * phi;
-  B = (1 - surv_mu)* phi;// look into this, if phi is not=1, relationship not hold
+  B = (1 - surv_mu)* phi;
   
   }
   
@@ -101,10 +102,10 @@ surv_mod_spstfam_nonc=stan(model_code="
 
  model {
   //priors
-  
+
   mass_eff~ normal (0.1,1);
   est_eff~ normal (0,1);
-  sigma_sp ~normal(0,1);
+  sigma_sp~ normal(0,1);
   sigma_st~ normal(0,1);
   sigma_fam~ normal(0,1);
   
@@ -129,13 +130,13 @@ generated quantities {
 
 saveRDS(surv_mod_spstfam, file="meta_survival_spstfam.RDS")
 pairs(stan_model=surv_mod7, pars=c("alpha", "beta1", "beta2", "lp__", "energy__", "sigma_sp", "sigma_st", "phi"))
-post=rstan::extract(surv_mod_spstfam_nonc)$pred_y #predicted survival estimate
+post=rstan::extract(surv_mod_spstfam_nonc2)$pred_y #predicted survival estimate
 length(post)
 mean(post) 
 mean(surv$survival.est) #0.72
 
 #model output visualization
-print(surv_mod_spstfam_nonc, pars=c("alpha", "mass_eff", "est_eff", "alpha_sp"))
+print(surv_mod_spstfam_nonc2, pars=c("alpha", "mass_eff", "est_eff", "alpha_fam"))
 
 jpeg("predsplot.jpeg", width = 4, height = 4, units = 'in', res = 300)
 matplot(surv$mass.g,t(post), type="l", col="grey", xlab="average mass (g)", ylab="survival estimate", ylim=c(0.0,1.0))
@@ -143,7 +144,7 @@ points(surv$survival.est~surv$mass.g, col="black", pch=19)
 preds=read.csv(file.choose(), h=T) #estimated survival of other species
 points(preds$survival..mod9.~preds$mass.g, col="white", pch=19)#
 dev.off()
-
+str(surv)
 print(surv_mod7)
 surv$mass.g=surv$Average.mass..kg.*1000
 #model output
