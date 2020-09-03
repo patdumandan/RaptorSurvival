@@ -89,7 +89,7 @@ surv_mod_spstfam_nonc=stan(model_code="
   
   for (i in 1:N){
   
-  surv_mu[i]= inv_logit(alpha_sp[species[i]]+mass_eff*mass[i]+est_eff*death_type[i]);
+  surv_mu[i]= inv_logit(alpha_sp[species[i]]+alpha_st[study[i]]+alpha_fam[family[i]]+mass_eff*mass[i]+est_eff*death_type[i]);
   }
   
   A = surv_mu * phi;
@@ -102,7 +102,7 @@ surv_mod_spstfam_nonc=stan(model_code="
  model {
   //priors
   
-  mass_eff~ normal (0.067,1);
+  mass_eff~ normal (0.1,1);
   est_eff~ normal (0,1);
   sigma_sp ~normal(0,1);
   sigma_st~ normal(0,1);
@@ -135,16 +135,16 @@ mean(post)
 mean(surv$survival.est) #0.72
 
 #model output visualization
-print(surv_mod_spstfam, pars=c("alpha", "beta1", "beta2", "alpha_sp"))
+print(surv_mod_spstfam_nonc, pars=c("alpha", "mass_eff", "est_eff", "alpha_sp"))
 
 jpeg("predsplot.jpeg", width = 4, height = 4, units = 'in', res = 300)
-matplot(surv$Average.mass..kg.,t(post), type="l", col="grey", xlab="average mass (kg)", ylab="survival estimate", ylim=c(0.0,1.0))
-points(surv$survival.est~surv$Average.mass..kg., col="black", pch=19)
+matplot(surv$mass.g,t(post), type="l", col="grey", xlab="average mass (g)", ylab="survival estimate", ylim=c(0.0,1.0))
+points(surv$survival.est~surv$mass.g, col="black", pch=19)
 preds=read.csv(file.choose(), h=T) #estimated survival of other species
-points(preds$survival..mod9.~preds$mass..kg., col="white", pch=19)#
+points(preds$survival..mod9.~preds$mass.g, col="white", pch=19)#
 dev.off()
 
 print(surv_mod7)
-
+surv$mass.g=surv$Average.mass..kg.*1000
 #model output
 print(meta_survival_final_v3, pars=c("alpha", "beta1", "beta2", "alpha_sp"))
