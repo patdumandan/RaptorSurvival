@@ -4,14 +4,13 @@
 #use subset of data in Newton database
 #fixed effects: mass, type of estimate (direct/indirect survival based on methods used)
 #species and study as random effect
-#issue: low ESS
 
-#run paralle chains
+#run parallel chains
 require(rstan)
 options(mc.cores = parallel::detectCores())
 rstan_options(auto_write = TRUE)
 
-#data#######
+#data#
 surv=read.csv(file.choose(), h=T)
 str(surv)
 plot(surv$survival.est~surv$Average.mass..kg.)
@@ -29,7 +28,7 @@ surv$stcode=as.integer(surv$Reference)
 surv$famcode=as.integer(surv$family)
 Nsp=36 #no.of species
 Nst=65 #no of studies
-Nfam=6
+Nfam=6 #no of families
 
 
 surv_mod_spstfam_nonc2=stan(model_code="
@@ -89,8 +88,9 @@ surv_mod_spstfam_nonc2=stan(model_code="
   //model:
   
   for (i in 1:N){
+  //try with random slope mass if no convergence issues
   
-  surv_mu[i]= inv_logit(alpha_sp[species[i]]+alpha_st[study[i]]+alpha_fam[family[i]]+mass_eff*mass[i]+est_eff*death_type[i]);
+  surv_mu[i]= inv_logit(alpha_sp[species[i]]+alpha_st[study[i]]+alpha_fam[family[i]]+mass_eff[family[i]]*mass[i]+est_eff*death_type[i]);
   }
   
   A = surv_mu * phi;
