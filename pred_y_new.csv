@@ -1,0 +1,524 @@
+IOCOrder,BLFamilyLatin,BLFamilyEnglish,Scientific,English,Diet-Inv,ForStrat-ground,BodyMass-Value,pred_y
+Strigiformes,Tytonidae,Barn owls,Tyto tenebricosa,Sooty Owl,0,20,660.6,0.999739331
+Strigiformes,Tytonidae,Barn owls,Tyto inexspectata,Sulawesi Golden Owl,0,60,521.71,0.745394819
+Strigiformes,Tytonidae,Barn owls,Tyto nigrobrunnea,Taliabu Masked-owl,0,60,521.71,0.745394819
+Strigiformes,Tytonidae,Barn owls,Tyto sororcula,Lesser Masked-owl,0,60,521.71,0.745394819
+Strigiformes,Tytonidae,Barn owls,Tyto manusi,Manus Masked-owl,0,60,521.71,0.745394819
+Strigiformes,Tytonidae,Barn owls,Tyto aurantia,Bismarck Masked-owl,0,60,521.71,0.745394819
+Strigiformes,Tytonidae,Barn owls,Tyto novaehollandiae,Australian Masked-owl,10,60,631.85,0.966977944
+Strigiformes,Tytonidae,Barn owls,Tyto rosenbergii,Sulawesi Owl,0,60,521.71,0.745394819
+Strigiformes,Tytonidae,Barn owls,Tyto soumagnei,Madagascar Red Owl,0,90,284,0.000929439
+Strigiformes,Tytonidae,Barn owls,Tyto alba,Barn Owl,10,90,403.32,0.011056705
+Strigiformes,Tytonidae,Barn owls,Tyto glaucops,Ashy-faced Owl,0,80,521.71,0.244937029
+Strigiformes,Tytonidae,Barn owls,Tyto capensis,African Grass-owl,10,90,364.74,0.005141785
+Strigiformes,Tytonidae,Barn owls,Tyto longimembris,Eastern Grass-owl,0,100,352.5,0.001217181
+Strigiformes,Tytonidae,Barn owls,Phodilus prigoginei,Congo Bay-owl,20,60,195,0.005168453
+Strigiformes,Tytonidae,Barn owls,Phodilus badius,Oriental Bay-owl,20,20,280.24,0.699475187
+Strigiformes,Strigidae,Owls,Otus sagittatus,White-fronted Scops-owl,90,20,122.64,0.16697772
+Strigiformes,Strigidae,Owls,Otus rufescens,Reddish Scops-owl,90,20,76.54,0.073836336
+Strigiformes,Strigidae,Owls,Otus icterorhynchus,Sandy Scops-owl,100,20,73.29,0.076265783
+Strigiformes,Strigidae,Owls,Otus ireneae,Sokoke Scops-owl,100,20,50.3,0.049547801
+Strigiformes,Strigidae,Owls,Otus balli,Andaman Scops-owl,100,10,123.28,0.402658541
+Strigiformes,Strigidae,Owls,Otus spilocephalus,Mountain Scops-owl,80,40,67.5,0.006626697
+Strigiformes,Strigidae,Owls,Otus umbra,Simeulue Scops-owl,100,40,95,0.01392564
+Strigiformes,Strigidae,Owls,Otus angelinae,Javan Scops-owl,90,20,82.2,0.081960725
+Strigiformes,Strigidae,Owls,Otus manadensis,Sulawesi Scops-owl,100,40,88.3,0.012200534
+Strigiformes,Strigidae,Owls,Otus longicornis,Luzon Scops-owl,100,60,82.87,0.00122621
+Strigiformes,Strigidae,Owls,Otus mindorensis,Mindoro Scops-owl,100,60,123.28,0.002747261
+Strigiformes,Strigidae,Owls,Otus mirus,Mindanao Scops-owl,90,60,61.32,0.000721396
+Strigiformes,Strigidae,Owls,Otus hartlaubi,Sao Tome Scops-owl,90,10,79,0.201009
+Strigiformes,Strigidae,Owls,Otus brucei,Pallid Scops-owl,70,50,84.35,0.002806519
+Strigiformes,Strigidae,Owls,Otus flammeolus,Flammulated Owl,100,40,59.9,0.006950272
+Strigiformes,Strigidae,Owls,Otus scops,Common Scops-owl,80,80,92,0.00013367
+Strigiformes,Strigidae,Owls,Otus sunia,Oriental Scops-owl,80,30,78.09,0.024169439
+Strigiformes,Strigidae,Owls,Otus senegalensis,African Scops-owl,90,80,67,8.96059E-05
+Strigiformes,Strigidae,Owls,Otus elegans,Elegant Scops-owl,80,80,124,0.000253473
+Strigiformes,Strigidae,Owls,Otus mantananensis,Mantanani Scops-owl,100,40,106,0.017293157
+Strigiformes,Strigidae,Owls,Otus magicus,Moluccan Scops-owl,90,40,165,0.049266006
+Strigiformes,Strigidae,Owls,Otus beccarii,Biak Scops-owl,100,40,165,0.0541667
+Strigiformes,Strigidae,Owls,Otus alfredi,Flores Scops-owl,90,10,123.28,0.378857589
+Strigiformes,Strigidae,Owls,Otus enganensis,Enggano Scops-owl,100,40,104.88,0.016916576
+Strigiformes,Strigidae,Owls,Otus insularis,Seychelles Scops-owl,50,40,123.28,0.014855766
+Strigiformes,Strigidae,Owls,Otus rutilus,Malagasy Scops-owl,90,10,101,0.280900343
+Strigiformes,Strigidae,Owls,Otus pembaensis,Pemba Scops-owl,100,60,123.28,0.002747261
+Strigiformes,Strigidae,Owls,Otus capnodes,Anjouan Scops-owl,100,60,119,0.002522447
+Strigiformes,Strigidae,Owls,Otus pauliani,Grand Comoro Scops-owl,100,60,69.49,0.000938583
+Strigiformes,Strigidae,Owls,Otus brookii,Rajah Scops-owl,100,40,123.28,0.024259225
+Strigiformes,Strigidae,Owls,Otus bakkamoena,Collared Scops-owl,80,40,146.3,0.031249613
+Strigiformes,Strigidae,Owls,Otus lettia,Collared Scops Owl,80,40,142.33,0.028933356
+Strigiformes,Strigidae,Owls,Otus lempiji,Sunda Scops Owl,90,60,142.33,0.003635379
+Strigiformes,Strigidae,Owls,Otus semitorques,Japanese Scops Owl,70,40,121.53,0.017474219
+Strigiformes,Strigidae,Owls,Otus mentawi,Mentawai Scops-owl,100,20,123.28,0.18326223
+Strigiformes,Strigidae,Owls,Otus fuliginosus,Palawan Scops-owl,100,40,123.28,0.024259225
+Strigiformes,Strigidae,Owls,Otus megalotis,Philippine Scops-owl,100,40,178.4,0.069655065
+Strigiformes,Strigidae,Owls,Otus silvicola,Wallace's Scops-owl,90,40,123.28,0.022001446
+Strigiformes,Strigidae,Owls,Otus leucotis,White-faced Scops-owl,10,90,204,0.000207536
+Strigiformes,Strigidae,Owls,Megascops kennicottii,Western Screech-owl,50,40,141.82,0.021381831
+Strigiformes,Strigidae,Owls,Megascops seductus,Balsas Screech-owl,50,40,160,0.030472033
+Strigiformes,Strigidae,Owls,Megascops cooperi,Pacific Screech-owl,80,60,149.94,0.00382944
+Strigiformes,Strigidae,Owls,Megascops asio,Eastern Screech-owl,50,70,179.99,0.001726037
+Strigiformes,Strigidae,Owls,Megascops trichopsis,Whiskered Screech-owl,100,10,88.26,0.250715485
+Strigiformes,Strigidae,Owls,Megascops choliba,Tropical Screech-owl,90,40,132,0.026084075
+Strigiformes,Strigidae,Owls,Megascops koepckeae,Koepcke's Screech-owl,100,40,116.93,0.021427914
+Strigiformes,Strigidae,Owls,Megascops roboratus,West Peruvian Screech-owl,100,40,126.7,0.025932086
+Strigiformes,Strigidae,Owls,Megascops clarkii,Bare-shanked Screech-owl,90,30,158.46,0.120172252
+Strigiformes,Strigidae,Owls,Megascops barbarus,Bearded Screech-owl,100,40,69,0.008326093
+Strigiformes,Strigidae,Owls,Megascops ingens,Rufescent Screech-owl,100,0,165.32,0.824393172
+Strigiformes,Strigidae,Owls,Megascops marshalli,Cloud-forest Screech-owl,90,0,101,0.539914885
+Strigiformes,Strigidae,Owls,Megascops watsonii,Tawny-bellied Screech-owl,90,20,129,0.185427419
+Strigiformes,Strigidae,Owls,Megascops atricapilla,Black-capped Screech-owl,90,10,118.89,0.358426531
+Strigiformes,Strigidae,Owls,Megascops hoyi,Montane Forest Screech-owl,100,30,110,0.0541667
+Strigiformes,Strigidae,Owls,Megascops guatemalae,Vermiculated Screech-owl,90,30,118,0.057324176
+Strigiformes,Strigidae,Owls,Megascops sanctaecatarinae,Long-tufted Screech-owl,50,50,179.72,0.015283199
+Strigiformes,Strigidae,Owls,Gymnoglaux lawrencii,Bare-legged Owl,90,60,95.2,0.001419543
+Strigiformes,Strigidae,Owls,Megascops nudipes,Puerto Rican Screech-owl,90,50,137.34,0.009822583
+Strigiformes,Strigidae,Owls,Otus podarginus,Palau Scops-owl,100,80,123.28,0.000305151
+Strigiformes,Strigidae,Owls,Megascops albogularis,White-throated Screech-owl,90,0,159,0.789181707
+Strigiformes,Strigidae,Owls,Mimizuku gurneyi,Giant Scops-owl,60,20,253,0.668187772
+Strigiformes,Strigidae,Owls,Bubo virginianus,Great Horned Owl,10,80,1575.7,0.999999998
+Strigiformes,Strigidae,Owls,Bubo bubo,Eurasian Eagle-owl,10,80,2668.51,1
+Strigiformes,Strigidae,Owls,Bubo bengalensis,Rock Eagle-owl,10,80,1100,0.999973544
+Strigiformes,Strigidae,Owls,Bubo ascalaphus,Pharaoh Eagle-owl,10,90,2100,1
+Strigiformes,Strigidae,Owls,Bubo capensis,Cape Eagle-owl,0,80,1118.64,0.99997986
+Strigiformes,Strigidae,Owls,Bubo africanus,Spotted Eagle-owl,60,80,685,0.939346097
+Strigiformes,Strigidae,Owls,Bubo poensis,Fraser's Eagle-owl,60,70,654.94,0.962268564
+Strigiformes,Strigidae,Owls,Bubo vosseleri,Usambara Eagle-owl,60,70,822.5,0.998627845
+Strigiformes,Strigidae,Owls,Bubo nipalensis,Spot-bellied Eagle-owl,0,60,1396.42,0.999999991
+Strigiformes,Strigidae,Owls,Bubo sumatranus,Barred Eagle-owl,60,80,1525,0.999999997
+Strigiformes,Strigidae,Owls,Bubo shelleyi,Shelley's Eagle-owl,0,80,1257,0.999998734
+Strigiformes,Strigidae,Owls,Bubo lacteus,Giant Eagle-owl,10,60,2114.94,1
+Strigiformes,Strigidae,Owls,Bubo coromandus,Dusky Eagle-owl,0,60,1392.15,0.999999991
+Strigiformes,Strigidae,Owls,Bubo leucostictus,Akun Eagle-owl,100,40,532.54,0.988912637
+Strigiformes,Strigidae,Owls,Bubo philippensis,Philippine Eagle-owl,0,60,1392.15,0.999999991
+Strigiformes,Strigidae,Owls,Ketupa blakistoni,Blakiston's Fish-owl,20,20,937.5,0.99999916
+Strigiformes,Strigidae,Owls,Ketupa zeylonensis,Brown Fish-owl,30,20,1105,0.999999973
+Strigiformes,Strigidae,Owls,Ketupa flavipes,Tawny Fish-owl,20,30,2315,1
+Strigiformes,Strigidae,Owls,Ketupa ketupu,Buffy Fish-owl,10,10,1293,1
+Strigiformes,Strigidae,Owls,Bubo scandiaca,Snowy Owl,10,90,2028.76,1
+Strigiformes,Strigidae,Owls,Scotopelia peli,Pel's Fishing-owl,20,0,1942.75,1
+Strigiformes,Strigidae,Owls,Scotopelia ussheri,Rufous Fishing-owl,0,0,787.18,0.999997702
+Strigiformes,Strigidae,Owls,Scotopelia bouvieri,Vermiculated Fishing-owl,20,20,636.99,0.999657809
+Strigiformes,Strigidae,Owls,Strix seloputo,Spotted Wood-owl,30,80,1011,0.99987157
+Strigiformes,Strigidae,Owls,Strix ocellata,Mottled Wood-owl,10,80,559.09,0.430895125
+Strigiformes,Strigidae,Owls,Strix leptogrammica,Brown Wood-owl,10,70,970,0.999881443
+Strigiformes,Strigidae,Owls,Strix aluco,Tawny Owl,10,70,472.46,0.28683616
+Strigiformes,Strigidae,Owls,Strix butleri,Hume's Owl,10,80,219,0.000841065
+Strigiformes,Strigidae,Owls,Strix occidentalis,Spotted Owl,10,70,586.37,0.79695976
+Strigiformes,Strigidae,Owls,Strix varia,Barred Owl,10,60,711.49,0.993103357
+Strigiformes,Strigidae,Owls,Strix fulvescens,Fulvous Owl,20,70,559.09,0.715408726
+Strigiformes,Strigidae,Owls,Strix hylophila,Rusty-barred Owl,30,20,345.38,0.904443315
+Strigiformes,Strigidae,Owls,Strix rufipes,Rufous-legged Owl,0,0,380,0.992154977
+Strigiformes,Strigidae,Owls,Strix uralensis,Ural Owl,10,80,780.56,0.984498567
+Strigiformes,Strigidae,Owls,Strix davidi,Pere David's Owl,30,80,559.09,0.480459957
+Strigiformes,Strigidae,Owls,Strix nebulosa,Great Grey Owl,10,100,1061.89,0.999488576
+Strigiformes,Strigidae,Owls,Strix virgata,Mottled Owl,40,80,283.97,0.004149538
+Strigiformes,Strigidae,Owls,Strix nigrolineata,Black-and-white Owl,70,80,457.89,0.154178151
+Strigiformes,Strigidae,Owls,Strix huhula,Black-banded Owl,80,10,370,0.987131236
+Strigiformes,Strigidae,Owls,Strix albitarsis,Rufous-banded Owl,50,10,559.09,0.999599261
+Strigiformes,Strigidae,Owls,Strix woodfordii,African Wood-owl,60,70,350,0.0541667
+Strigiformes,Strigidae,Owls,Jubula lettii,Maned Owl,90,60,183,0.008162571
+Strigiformes,Strigidae,Owls,Lophostrix cristata,Crested Owl,90,20,538.66,0.998786703
+Strigiformes,Strigidae,Owls,Pulsatrix perspicillata,Spectacled Owl,10,40,983.55,0.999996665
+Strigiformes,Strigidae,Owls,Pulsatrix koeniswaldiana,Tawny-browed Owl,30,20,481,0.993035911
+Strigiformes,Strigidae,Owls,Pulsatrix melanota,Band-bellied Owl,20,30,695.5,0.999681
+Strigiformes,Strigidae,Owls,Surnia ulula,Northern Hawk Owl,0,80,319.9,0.005697579
+Strigiformes,Strigidae,Owls,Glaucidium passerinum,Eurasian Pygmy-owl,0,60,57.87,0.000273865
+Strigiformes,Strigidae,Owls,Glaucidium brodiei,Collared Owlet,30,70,59.39,0.000126873
+Strigiformes,Strigidae,Owls,Glaucidium perlatum,Pearl-spotted Owlet,60,70,79.24,0.000254692
+Strigiformes,Strigidae,Owls,Glaucidium californicum,Northern Pygmy Owl,40,90,67.5,1.82742E-05
+Strigiformes,Strigidae,Owls,Glaucidium gnoma,Northern Pygmy-owl,60,90,61.25,1.96975E-05
+Strigiformes,Strigidae,Owls,Glaucidium jardinii,Andean Pygmy-owl,50,70,66.9,0.000180067
+Strigiformes,Strigidae,Owls,Glaucidium bolivianum,Yungas Pygmy-owl,50,90,62.95,1.84394E-05
+Strigiformes,Strigidae,Owls,Glaucidium palmarum,Colima Pygmy-owl,30,80,45.7,3.212E-05
+Strigiformes,Strigidae,Owls,Glaucidium sanchezi,Tamaulipas Pygmy-owl,50,100,55,5.23572E-06
+Strigiformes,Strigidae,Owls,Glaucidium griseiceps,Central American Pygmy-owl,40,80,50.58,3.91371E-05
+Strigiformes,Strigidae,Owls,Glaucidium parkeri,Subtropical Pygmy-owl,40,90,61.39,1.61722E-05
+Strigiformes,Strigidae,Owls,Glaucidium hardyi,Amazonian Pygmy-owl,70,80,58.3,6.16485E-05
+Strigiformes,Strigidae,Owls,Glaucidium minutissimum,Least Pygmy-owl,60,90,50,1.57288E-05
+Strigiformes,Strigidae,Owls,Glaucidium brasilianum,Ferruginous Pygmy-owl,60,80,75.1,7.80565E-05
+Strigiformes,Strigidae,Owls,Glaucidium peruanum,Peruvian Pygmy-owl,50,10,62.41,0.107955203
+Strigiformes,Strigidae,Owls,Glaucidium nanum,Austral Pygmy-owl,10,70,73.7,0.000138293
+Strigiformes,Strigidae,Owls,Glaucidium siju,Cuban Pygmy-owl,60,90,69.47,2.32171E-05
+Strigiformes,Strigidae,Owls,Glaucidium tephronotum,Red-chested Owlet,80,20,87.39,0.082247104
+Strigiformes,Strigidae,Owls,Glaucidium sjostedti,Sjostedt's Owlet,70,50,139,0.008326093
+Strigiformes,Strigidae,Owls,Glaucidium cuculoides,Asian Barred Owlet,60,50,198.16,0.02420248
+Strigiformes,Strigidae,Owls,Glaucidium castanopterum,Javan Owlet,60,70,76.02,0.000238811
+Strigiformes,Strigidae,Owls,Glaucidium radiatum,Jungle Owlet,60,80,101,0.000131024
+Strigiformes,Strigidae,Owls,Glaucidium castanonotum,Chestnut-backed Owlet,70,80,100,0.000141935
+Strigiformes,Strigidae,Owls,Glaucidium capense,African Barred Owlet,60,70,122,0.00059879
+Strigiformes,Strigidae,Owls,Glaucidium castaneum,Chestnut Owlet,50,70,100,0.000349031
+Strigiformes,Strigidae,Owls,Glaucidium albertinum,Albertine Owlet,100,70,73,0.00033535
+Strigiformes,Strigidae,Owls,Xenoglaux loweryi,Long-whiskered Owlet,100,80,48,6.77241E-05
+Strigiformes,Strigidae,Owls,Micrathene whitneyi,Elf Owl,100,40,41,0.00477298
+Strigiformes,Strigidae,Owls,Athene noctua,Little Owl,70,80,168.92,0.000563038
+Strigiformes,Strigidae,Owls,Athene brama,Spotted Owlet,70,60,112,0.001626008
+Strigiformes,Strigidae,Owls,Heteroglaux blewitti,Forest Owlet,30,70,241,0.00477298
+Strigiformes,Strigidae,Owls,Athene cunicularia,Burrowing Owl,20,80,150.61,0.000236861
+Strigiformes,Strigidae,Owls,Aegolius funereus,Boreal Owl,30,90,137.18,6.66226E-05
+Strigiformes,Strigidae,Owls,Aegolius acadicus,Northern Saw-whet Owl,20,90,100.69,2.90576E-05
+Strigiformes,Strigidae,Owls,Aegolius ridgwayi,Southern Saw-whet Owl,20,90,80,1.92112E-05
+Strigiformes,Strigidae,Owls,Aegolius harrisii,Buff-fronted Owl,50,80,120,0.000173354
+Strigiformes,Strigidae,Owls,Ninox rufa,Rufous Owl,30,30,931.67,0.999997435
+Strigiformes,Strigidae,Owls,Ninox strenua,Powerful Owl,0,20,1345.97,1
+Strigiformes,Strigidae,Owls,Ninox connivens,Barking Owl,20,20,577.99,0.998887242
+Strigiformes,Strigidae,Owls,Ninox rudolfi,Sumba Boobook,70,20,348.96,0.93815013
+Strigiformes,Strigidae,Owls,Ninox boobook,Southern Boobook,60,20,282.19,0.783095926
+Strigiformes,Strigidae,Owls,Ninox novaeseelandiae,Southern Boobook,70,30,183.37,0.155434221
+Strigiformes,Strigidae,Owls,Ninox scutulata,Brown Hawk-owl,60,30,191,0.162465063
+Strigiformes,Strigidae,Owls,Ninox affinis,Andaman Hawk-owl,100,20,348.96,0.95343402
+Strigiformes,Strigidae,Owls,Ninox superciliaris,White-browed Hawk-owl,60,90,231,0.00058694
+Strigiformes,Strigidae,Owls,Ninox philippensis,Philippine Hawk-owl,50,70,127.89,0.000609538
+Strigiformes,Strigidae,Owls,Ninox ochracea,Ochre-bellied Hawk-owl,70,70,348.96,0.058370569
+Strigiformes,Strigidae,Owls,Ninox squamipila,Moluccan Hawk-owl,100,10,210,0.792489941
+Strigiformes,Strigidae,Owls,Ninox natalis,Christmas Island Hawk-owl,80,20,184,0.382252125
+Strigiformes,Strigidae,Owls,Ninox theomacha,Jungle Hawk-owl,100,20,125,0.188467325
+Strigiformes,Strigidae,Owls,Ninox meeki,Manus Hawk-owl,70,60,209,0.011206406
+Strigiformes,Strigidae,Owls,Ninox punctulata,Speckled Hawk-owl,70,20,151,0.224435986
+Strigiformes,Strigidae,Owls,Ninox variegata,Bismarck Hawk-owl,100,20,348.96,0.95343402
+Strigiformes,Strigidae,Owls,Ninox odiosa,Russet Hawk-owl,50,70,209,0.003079205
+Strigiformes,Strigidae,Owls,Ninox jacquinoti,Solomons Hawk-owl,80,60,200.81,0.010521055
+Strigiformes,Strigidae,Owls,Uroglaux dimorpha,Papuan Hawk-owl,50,60,281,0.037687891
+Strigiformes,Strigidae,Owls,Pseudoscops grammicus,Jamaican Owl,60,50,335,0.276878195
+Strigiformes,Strigidae,Owls,Asio stygius,Stygian Owl,10,60,565,0.884933268
+Strigiformes,Strigidae,Owls,Asio otus,Long-eared Owl,0,80,296.57,0.003580735
+Strigiformes,Strigidae,Owls,Asio abyssinicus,Abyssinian Owl,10,100,407,0.003989865
+Strigiformes,Strigidae,Owls,Asio madagascariensis,Madagascar Owl,0,60,407,0.227936451
+Strigiformes,Strigidae,Owls,Pseudoscops clamator,Striped Owl,20,70,443.28,0.198706251
+Strigiformes,Strigidae,Owls,Asio flammeus,Short-eared Owl,0,90,322.61,0.002009616
+Strigiformes,Strigidae,Owls,Asio capensis,Marsh Owl,30,80,334,0.010150801
+Strigiformes,Strigidae,Owls,Nesasio solomonensis,Fearful Owl,0,10,1155,0.999999996
+Cariamiformes,Cariamidae,Seriemas,Cariama cristata,Red-legged Seriema,60,60,1400,0.999999996
+Cariamiformes,Cariamidae,Seriemas,Chunga burmeisteri,Black-legged Seriema,30,60,1298,0.999999954
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Pandion haliaetus,Osprey,0,0,1483.2,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aviceda cuculoides,African Baza,40,33,277,0.389360766
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aviceda madagascariensis,Madagascar Baza,30,33,292,0.437823499
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aviceda jerdoni,Jerdon's Baza,70,100,363,0.003018416
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aviceda subcristata,Pacific Baza,40,0,322.65,0.983584863
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aviceda leuphotes,Black Baza,70,33,193.98,0.140589789
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leptodon cayanensis,Grey-headed Kite,50,0,474,0.999268733
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leptodon forbesi,White-collared Kite,50,0,577,0.999906738
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Chondrohierax uncinatus,Hook-billed Kite,80,0,286.07,0.977277166
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Henicopernis longicauda,Long-tailed Honey-buzzard,60,0,571.23,0.99990529
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Henicopernis infuscatus,Black Honey-buzzard,50,0,730,0.999995627
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Pernis apivorus,European Honey-buzzard,80,0,754.37,0.99999801
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Pernis ptilorhyncus,Oriental Honey-buzzard,80,20,1141.13,0.999999992
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Pernis celebensis,Barred Honey-buzzard,80,0,721.99,0.999996197
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Lophoictinia isura,Square-tailed Kite,20,0,579.37,0.99987994
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Hamirostra melanosternon,Black-breasted Buzzard,10,33,1196,0.999999978
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Elanoides forficatus,American Swallow-tailed Kite,70,0,416.24,0.998101517
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Macheiramphus alcinus,Bat Hawk,20,0,650,0.999970762
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Gampsonyx swainsonii,Pearl Kite,10,100,92.9,7.48951E-06
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Elanus caeruleus,Black-winged Kite,20,100,259.76,0.000232869
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Elanus axillaris,Black-shouldered Kite,10,100,270.1,0.00025911
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Elanus leucurus,White-tailed Kite,0,80,346,0.009565319
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Elanus scriptus,Letter-winged Kite,10,100,316,0.00064863
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Chelictinia riocourii,African Swallow-tailed Kite,60,100,110,1.7383E-05
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Rostrhamus sociabilis,Snail Kite,100,100,366.94,0.004402371
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Helicolestes hamatus,Slender-billed Kite,100,100,425.46,0.014052539
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Harpagus bidentatus,Double-toothed Kite,80,0,215.25,0.91253598
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Harpagus diodon,Rufous-thighed Kite,80,0,200,0.884933268
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Ictinia mississippiensis,Mississippi Kite,90,10,276.03,0.928282413
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Ictinia plumbea,Plumbeous Kite,90,0,249.9,0.958433276
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Milvus milvus,Red Kite,0,100,1071.77,0.99953611
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Milvus migrans,Black Kite,0,60,734.1,0.99514075
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Haliastur sphenurus,Whistling Kite,10,100,752.99,0.80215215
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Haliastur indus,Brahminy Kite,10,50,529,0.918339745
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Haliaeetus leucogaster,White-bellied Sea-eagle,0,30,2827.01,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Haliaeetus sanfordi,Sanford's Sea-eagle,0,30,1980,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Haliaeetus vocifer,African Fish-eagle,0,10,3400,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Haliaeetus vociferoides,Madagascar Fish-eagle,0,0,3000,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Haliaeetus leucoryphus,Pallas's Fish-eagle,0,10,2885.92,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Haliaeetus albicilla,White-tailed Eagle,0,20,4729.27,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Haliaeetus leucocephalus,Bald Eagle,0,30,4700.58,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Haliaeetus pelagicus,Steller's Sea-eagle,0,20,7756.99,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Ichthyophaga humilis,Lesser Fish-eagle,0,0,782,0.999997451
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Ichthyophaga ichthyaetus,Grey-headed Fish-eagle,0,0,1590,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Gypohierax angolensis,Palm-nut Vulture,10,20,1600,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Gypaetus barbatus,Lammergeier,0,100,5694.98,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Neophron percnopterus,Egyptian Vulture,10,100,2082,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Necrosyrtes monachus,Hooded Vulture,20,100,2043,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Gyps africanus,White-backed Vulture,0,100,5432.99,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Gyps bengalensis,White-rumped Vulture,0,100,4385,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Gyps indicus,Indian Vulture,0,100,5515,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Gyps rueppellii,Rueppell's Vulture,0,100,7399.99,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Gyps himalayensis,Himalayan Vulture,0,100,9797.95,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Gyps fulvus,Griffon Vulture,0,100,7435.99,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Gyps coprotheres,Cape Vulture,0,100,8176.99,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aegypius monachus,Cinereous Vulture,0,100,9320.55,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Torgos tracheliotos,Lappet-faced Vulture,0,100,6969,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Trigonoceps occipitalis,White-headed Vulture,0,100,3016,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Sarcogyps calvus,Red-headed Vulture,0,100,4469.89,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circaetus gallicus,Short-toed Snake-eagle,0,60,1699.12,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circaetus pectoralis,Black-chested Snake-eagle,10,100,1500,0.99999992
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circaetus cinereus,Brown Snake-eagle,0,80,2048,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circaetus fasciolatus,Southern Banded Snake-eagle,10,20,1013.6,0.999999797
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circaetus cinerascens,Banded Snake-eagle,10,70,1115,0.999993476
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Terathopius ecaudatus,Bateleur,10,60,2200,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Spilornis cheela,Crested Serpent-eagle,10,50,597.74,0.978007159
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Spilornis klossi,South Nicobar Serpent-eagle,10,50,938.66,0.999975411
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Spilornis kinabaluensis,Mountain Serpent-eagle,10,50,938.66,0.999975411
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Spilornis rufipectus,Sulawesi Serpent-eagle,10,100,938.66,0.994019187
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Spilornis holospilus,Philippine Serpent-eagle,10,50,705,0.99737488
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Spilornis elgini,Andaman Serpent-eagle,0,100,895,0.984326712
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Dryotriorchis spectabilis,Congo Serpent-eagle,0,50,697,0.996598054
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Eutriorchis astur,Madagascar Serpent-eagle,0,30,1790,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus aeruginosus,Western Marsh-harrier,10,100,704.07,0.603818209
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus ranivorus,African Marsh-harrier,10,60,507,0.706822221
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus spilonotus,Eastern Marsh-harrier,0,100,558.78,0.070149183
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus approximans,Swamp Harrier,10,100,746.19,0.779679563
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus maillardi,Reunion Harrier,10,60,663.6,0.982224521
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus buffoni,Long-winged Harrier,0,100,507.4,0.026288077
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus assimilis,Spotted Harrier,0,100,558.58,0.069888718
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus maurus,Black Harrier,10,80,508.99,0.217516181
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus cyaneus,Northern Harrier,10,100,392.98,0.003017213
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus cinereus,Cinereous Harrier,10,60,399.67,0.219839832
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus macrourus,Pallid Harrier,20,100,384.36,0.002807078
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus melanoleucos,Pied Harrier,10,100,336.3,0.000973149
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus pygargus,Montagu's Harrier,10,100,310.75,0.000584015
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Polyboroides typus,African Harrier-hawk,20,10,633.24,0.999877196
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Polyboroides radiatus,Madagascar Harrier-hawk,60,20,570,0.99912464
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Kaupifalco monogrammicus,Lizard Buzzard,60,60,278.94,0.039879362
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Melierax metabates,Dark Chanting-goshawk,10,60,674.53,0.985664824
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Melierax poliopterus,Eastern Chanting-goshawk,10,80,629.88,0.757238724
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Melierax canorus,Pale Chanting-goshawk,10,80,663.32,0.858926219
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Melierax gabar,Gabar Goshawk,10,0,169.55,0.675024677
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter poliogaster,Gray-bellied Hawk,0,0,1369.41,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter trivirgatus,Crested Goshawk,20,33,265.04,0.291274947
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter griseiceps,Sulawesi Goshawk,20,80,251.76,0.001788121
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter tachiro,African Goshawk,10,20,381,0.940475634
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter castanilius,Chestnut-flanked Sparrowhawk,10,50,157.51,0.006628014
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter badius,Shikra,10,50,131.15,0.003922875
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter butleri,Nicobar Sparrowhawk,10,100,332.94,0.00090996
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter brevipes,Levant Sparrowhawk,40,0,186.48,0.79731552
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter soloensis,Chinese Goshawk,10,100,164.77,3.15281E-05
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter francesiae,Frances's Sparrowhawk,60,30,136.82,0.061595054
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter trinotatus,Spot-tailed Goshawk,20,80,146,0.000216003
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter novaehollandiae,Grey Goshawk,30,50,326.06,0.191731244
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter fasciatus,Brown Goshawk,20,50,358.66,0.291770636
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter melanochlamys,Black-mantled Goshawk,10,0,265,0.933391964
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter albogularis,Pied Goshawk,0,100,248.75,0.000152988
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter haplochrous,White-bellied Goshawk,30,70,198.41,0.002041962
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter rufitorques,Fiji Goshawk,20,0,209,0.83479513
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter henicogrammus,Moluccan Goshawk,30,0,332.94,0.985208491
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter luteoschistaceus,Slaty-mantled Sparrowhawk,40,100,214,0.000113909
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter imitator,Imitator Sparrowhawk,40,70,222.49,0.003646988
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter poliocephalus,Grey-headed Goshawk,20,0,214.76,0.850076349
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter princeps,New Britain Goshawk,50,100,332.94,0.001356893
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter superciliosus,Tiny Hawk,0,0,99.51,0.316522372
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter collaris,Semicollared Hawk,0,0,332.94,0.980136345
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter erythropus,Red-thighed Sparrowhawk,40,50,111.2,0.003554429
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter minullus,Little Sparrowhawk,20,100,87.43,7.41944E-06
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter gularis,Japanese Sparrowhawk,10,10,120.66,0.206394025
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter virgatus,Besra,20,50,116.99,0.003268338
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter nanus,Small Sparrowhawk,70,70,332.94,0.043057783
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter erythrauchen,Rufous-necked Sparrowhawk,0,0,156,0.589040434
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter cirrocephalus,Collared Sparrowhawk,10,0,165.73,0.658046312
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter brachyurus,New Britain Sparrowhawk,0,0,142,0.51998934
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter rhodogaster,Vinous-breasted Sparrowhawk,20,50,172.71,0.009894818
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter madagascariensis,Madagascar Sparrowhawk,20,0,180.41,0.7404291
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter ovampensis,Ovampo Sparrowhawk,0,0,195,0.757679639
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter nisus,Eurasian Sparrowhawk,0,20,220.79,0.367211097
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter rufiventris,Rufous-chested Sparrowhawk,10,20,198,0.289050497
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter striatus,Sharp-shinned Hawk,0,0,130.59,0.463017663
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter chionogaster,White-breasted Hawk,0,40,332.94,0.377258706
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter ventralis,Plain-breasted Hawk,0,0,233,0.869891526
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter erythronemius,Rufous-thighed Hawk,0,0,125,0.435363708
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter cooperii,Cooper's Hawk,0,40,429.67,0.807430522
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter gundlachi,Gundlach's Hawk,0,0,675,0.99997834
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter bicolor,Bicoloured Hawk,0,0,287.54,0.952156767
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter chilensis,Chilean Hawk,0,0,368,0.990048198
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter melanoleucus,Black Goshawk,0,10,698.99,0.999959727
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter henstii,Henst's Goshawk,0,0,1050,0.999999988
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter gentilis,Northern Goshawk,0,100,866.04,0.97236908
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter meyerianus,Meyer's Goshawk,0,0,763.54,0.999996313
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Erythrotriorchis buergersi,Chestnut-shouldered Goshawk,0,0,575,0.999839972
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Erythrotriorchis radiatus,Red Goshawk,10,0,887.35,0.99999972
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Megatriorchis doriae,Doria's Goshawk,0,0,999.99,0.999999967
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Urotriorchis macrourus,Long-tailed Hawk,0,20,492,0.992460265
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Butastur rufipennis,Grasshopper Buzzard,80,100,334.87,0.001902656
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Butastur teesa,White-eyed Buzzard,30,100,325,0.000948197
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Butastur liventer,Rufous-winged Buzzard,30,100,337.99,0.001229153
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Butastur indicus,Grey-faced Buzzard,0,100,414.6,0.004201932
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Geranospiza caerulescens,Crane Hawk,30,20,302.5,0.800592243
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leucopternis plumbeus,Plumbeous Hawk,30,100,482,0.02145729
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leucopternis schistaceus,Slate-coloured Hawk,0,100,999.99,0.998053551
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leucopternis princeps,Barred Hawk,0,0,999.99,0.999999967
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leucopternis melanops,Black-faced Hawk,0,50,312,0.117118991
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leucopternis kuhli,White-browed Hawk,0,20,352.09,0.889121609
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leucopternis lacernulatus,White-necked Hawk,30,100,595.5,0.175086268
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leucopternis semiplumbeus,Semiplumbeous Hawk,10,100,285.04,0.00034931
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leucopternis albicollis,White Hawk,20,100,703.7,0.625743699
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leucopternis occidentalis,Grey-backed Hawk,40,80,659.99,0.884912901
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Leucopternis polionotus,Mantled Hawk,0,100,595.5,0.135872897
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteogallus aequinoctialis,Rufous Crab-hawk,100,100,657.63,0.596908439
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteogallus anthracinus,Common Black-hawk,30,40,975.09,0.999996766
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteogallus urubitinga,Great Black-hawk,20,40,1152.87,0.999999898
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteogallus meridionalis,Savanna Hawk,20,100,807.99,0.930848707
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Parabuteo unicinctus,Harris's Hawk,0,100,850.28,0.962514683
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Busarellus nigricollis,Black-collared Hawk,10,100,766.14,0.840613512
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Geranoaetus melanoleucus,Black-chested Buzzard-eagle,0,100,2378.62,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Harpyhaliaetus solitarius,Solitary Eagle,0,60,3000,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Harpyhaliaetus coronatus,Crowned Eagle,0,100,2950,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo nitidus,Grey Hawk,20,0,519.04,0.99959886
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo magnirostris,Roadside Hawk,40,33,269,0.352059198
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo lineatus,Red-shouldered Hawk,20,33,603.72,0.997225206
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo ridgwayi,Ridgway's Hawk,0,20,866.4,0.999995748
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo platypterus,Broad-winged Hawk,10,100,453.65,0.010080707
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo leucorrhous,White-rumped Hawk,30,100,290,0.000471085
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo brachyurus,Short-tailed Hawk,0,0,496.01,0.999223704
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo albigula,White-throated Hawk,0,40,524.99,0.965769231
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo swainsoni,Swainson's Hawk,30,20,946.61,0.999999367
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo galapagoensis,Galapagos Hawk,10,100,1137.44,0.999887089
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo albicaudatus,White-tailed Hawk,10,100,885,0.982706843
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo polyosoma,Red-backed Hawk,0,100,782.61,0.86900617
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo albonotatus,Zone-tailed Hawk,0,50,745.92,0.998718447
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo solitarius,Hawaiian Hawk,30,33,500.88,0.980689369
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo jamaicensis,Red-tailed Hawk,10,0,1101.16,0.999999996
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo ventralis,Rufous-tailed Hawk,0,50,1190.52,0.999999824
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo buteo,Common Buzzard,0,100,759.1,0.805651762
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo oreophilus,Mountain Buzzard,10,50,699.99,0.997099016
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo brachypterus,Madagascar Buzzard,10,60,511,0.723121805
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo rufinus,Long-legged Buzzard,0,100,1166.18,0.999929765
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo hemilasius,Upland Buzzard,10,100,1358.89,0.999998653
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo regalis,Ferruginous Hawk,0,100,1437.18,0.999999689
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo lagopus,Rough-legged Hawk,10,100,949.76,0.995204165
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo auguralis,Red-necked Buzzard,40,80,663.92,0.89267874
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo augur,Augur Buzzard,10,60,1099.18,0.99999702
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo archeri,Archer's Buzzard,50,60,866.4,0.999789959
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteo rufofuscus,Jackal Buzzard,10,40,1530,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Morphnus guianensis,Crested Eagle,0,0,1750,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Harpia harpyja,Harpy Eagle,0,10,4800,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Harpyopsis novaeguineae,New Guinea Eagle,0,40,1959.59,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Pithecophaga jefferyi,Philippine Eagle,0,30,5175.32,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Ictinaetus malayensis,Black Eagle,20,0,1028,0.999999985
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila pomarina,Lesser Spotted Eagle,20,20,1359.41,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila clanga,Greater Spotted Eagle,10,50,2154.29,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila rapax,Tawny Eagle,10,100,2236.06,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila nipalensis,Steppe Eagle,0,100,2714.33,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila adalberti,Spanish Imperial Eagle,0,100,2958.03,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila heliaca,Eastern Imperial Eagle,0,100,3125.21,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila gurneyi,Gurney's Eagle,0,30,3059.99,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila chrysaetos,Golden Eagle,0,100,4247.97,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila audax,Wedge-tailed Eagle,0,70,3449.86,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila verreauxii,Verreaux's Eagle,0,60,4195,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila wahlbergi,Wahlberg's Eagle,10,80,639.99,0.79245705
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila fasciatus,Bonelli's Eagle,0,70,1936.49,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Hieraaetus spilogaster,African Hawk-eagle,0,40,1466.17,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Hieraaetus pennatus,Booted Eagle,10,100,823.75,0.943481034
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Hieraaetus morphnoides,Little Eagle,10,70,775.05,0.99418221
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Hieraaetus ayresii,Ayres's Hawk-eagle,0,0,806.06,0.999998425
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Lophotriorchis kienerii,Rufous-bellied Eagle,0,50,799,0.999556336
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Polemaetus bellicosus,Martial Eagle,0,60,3964.54,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Spizaetus melanoleucus,Black-and-white Hawk-eagle,0,30,850,0.999982266
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Lophaetus occipitalis,Long-crested Eagle,10,100,1067,0.999538238
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila africanus,Cassin's Hawk-eagle,0,0,1047,0.999999987
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Nisaetus cirrhatus,Changeable Hawk-eagle,0,50,1475.12,0.999999999
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Nisaetus nipalensis,Mountain Hawk-eagle,0,100,3004.99,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Nisaetus alboniger,Blyth's Hawk-eagle,0,0,829.99,0.999999024
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Nisaetus bartelsi,Javan Hawk-eagle,0,60,1391.37,0.99999999
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Nisaetus lanceolatus,Sulawesi Hawk-eagle,0,60,1391.37,0.99999999
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Nisaetus philippensis,Philippine Hawk-eagle,0,60,1168,0.999999168
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Nisaetus nanus,Wallace's Hawk-eagle,0,40,557.76,0.981928813
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Spizaetus tyrannus,Black Hawk-eagle,0,20,1007.11,0.999999745
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Spizaetus ornatus,Ornate Hawk-eagle,0,10,1197.4,0.999999998
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Stephanoaetus coronatus,Crowned Hawk-eagle,0,40,3640,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Spizaetus isidori,Black-and-chestnut Eagle,0,0,3087,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Sagittarius serpentarius,Secretarybird,60,100,4017,1
+Falconiformes,Falconidae,Falcons and caracaras,Herpetotheres cachinnans,Laughing Falcon,0,33,623.58,0.997720689
+Falconiformes,Falconidae,Falcons and caracaras,Micrastur ruficollis,Barred Forest-falcon,0,40,177.64,0.026411223
+Falconiformes,Falconidae,Falcons and caracaras,Micrastur plumbeus,Plumbeous Forest-falcon,50,100,185.41,7.10682E-05
+Falconiformes,Falconidae,Falcons and caracaras,Micrastur gilvicollis,Lined Forest-falcon,40,10,209,0.672607017
+Falconiformes,Falconidae,Falcons and caracaras,Micrastur mirandollei,Slaty-backed Forest-falcon,0,0,548.99,0.999730804
+Falconiformes,Falconidae,Falcons and caracaras,Micrastur semitorquatus,Collared Forest-falcon,0,50,621.68,0.984836733
+Falconiformes,Falconidae,Falcons and caracaras,Micrastur buckleyi,Buckley's Forest-falcon,0,0,464,0.998528499
+Falconiformes,Falconidae,Falcons and caracaras,Daptrius ater,Black Caracara,10,20,351.75,0.897981931
+Falconiformes,Falconidae,Falcons and caracaras,Ibycter americanus,Red-throated Caracara,100,10,624,0.999933617
+Falconiformes,Falconidae,Falcons and caracaras,Phalcoboenus carunculatus,Carunculated Caracara,20,100,991,0.9980924
+Falconiformes,Falconidae,Falcons and caracaras,Phalcoboenus megalopterus,Mountain Caracara,30,100,787.99,0.908860474
+Falconiformes,Falconidae,Falcons and caracaras,Phalcoboenus albogularis,White-throated Caracara,30,100,808.99,0.938184936
+Falconiformes,Falconidae,Falcons and caracaras,Phalcoboenus australis,Striated Caracara,20,100,1187,0.99996208
+Falconiformes,Falconidae,Falcons and caracaras,Caracara plancus,Southern Caracara,20,100,1078.62,0.999668781
+Falconiformes,Falconidae,Falcons and caracaras,Milvago chimachima,Yellow-headed Caracara,20,100,315.21,0.000705569
+Falconiformes,Falconidae,Falcons and caracaras,Milvago chimango,Chimango Caracara,20,100,296,0.000480597
+Falconiformes,Falconidae,Falcons and caracaras,Spiziapteryx circumcincta,Spot-winged Falconet,40,0,166.24,0.724081815
+Falconiformes,Falconidae,Falcons and caracaras,Polihierax semitorquatus,Pygmy Falcon,40,60,61.5,0.000439251
+Falconiformes,Falconidae,Falcons and caracaras,Polihierax insignis,White-rumped Falcon,40,40,96.99,0.008000647
+Falconiformes,Falconidae,Falcons and caracaras,Microhierax caerulescens,Collared Falconet,60,0,38.72,0.200111121
+Falconiformes,Falconidae,Falcons and caracaras,Microhierax fringillarius,Black-thighed Falconet,70,0,42.9,0.231119619
+Falconiformes,Falconidae,Falcons and caracaras,Microhierax latifrons,White-fronted Falconet,80,0,41.2,0.243055523
+Falconiformes,Falconidae,Falcons and caracaras,Microhierax erythrogenys,Philippine Falconet,90,0,49.96,0.29717223
+Falconiformes,Falconidae,Falcons and caracaras,Microhierax melanoleucos,Pied Falconet,60,40,64.22,0.005088858
+Falconiformes,Falconidae,Falcons and caracaras,Falco berigora,Brown Falcon,20,30,587.01,0.99721356
+Falconiformes,Falconidae,Falcons and caracaras,Falco naumanni,Lesser Kestrel,100,40,152.06,0.0423384
+Falconiformes,Falconidae,Falcons and caracaras,Falco tinnunculus,Common Kestrel,10,80,183.21,0.00041129
+Falconiformes,Falconidae,Falcons and caracaras,Falco newtoni,Madagascar Kestrel,60,50,123.38,0.005527922
+Falconiformes,Falconidae,Falcons and caracaras,Falco punctatus,Mauritius Kestrel,10,20,167.41,0.180672186
+Falconiformes,Falconidae,Falcons and caracaras,Falco araea,Seychelles Kestrel,20,30,79.77,0.013862615
+Falconiformes,Falconidae,Falcons and caracaras,Falco moluccensis,Spotted Kestrel,30,60,220,0.009377689
+Falconiformes,Falconidae,Falcons and caracaras,Falco cenchroides,Nankeen Kestrel,60,70,170.47,0.001577083
+Falconiformes,Falconidae,Falcons and caracaras,Falco sparverius,American Kestrel,60,50,114.61,0.004642726
+Falconiformes,Falconidae,Falcons and caracaras,Falco rupicoloides,Greater Kestrel,60,10,261,0.876532952
+Falconiformes,Falconidae,Falcons and caracaras,Falco alopex,Fox Kestrel,30,100,273.86,0.000341166
+Falconiformes,Falconidae,Falcons and caracaras,Falco ardosiaceus,Grey Kestrel,30,50,234.16,0.036375718
+Falconiformes,Falconidae,Falcons and caracaras,Falco dickinsoni,Dickinson's Kestrel,30,100,209,9.32624E-05
+Falconiformes,Falconidae,Falcons and caracaras,Falco zoniventris,Banded Kestrel,20,20,174,0.217550224
+Falconiformes,Falconidae,Falcons and caracaras,Falco chicquera,Red-necked Falcon,20,10,208,0.622459331
+Falconiformes,Falconidae,Falcons and caracaras,Falco vespertinus,Red-footed Falcon,80,100,151.49,4.86797E-05
+Falconiformes,Falconidae,Falcons and caracaras,Falco amurensis,Amur Falcon,60,40,141.87,0.023600591
+Falconiformes,Falconidae,Falcons and caracaras,Falco eleonorae,Eleonora's Falcon,50,0,390,0.99608883
+Falconiformes,Falconidae,Falcons and caracaras,Falco concolor,Sooty Falcon,30,10,250,0.808454651
+Falconiformes,Falconidae,Falcons and caracaras,Falco femoralis,Aplomado Falcon,50,30,335.76,0.760459436
+Falconiformes,Falconidae,Falcons and caracaras,Falco columbarius,Merlin,20,0,188.5,0.770298949
+Falconiformes,Falconidae,Falcons and caracaras,Falco rufigularis,Bat Falcon,30,10,163.64,0.428689491
+Falconiformes,Falconidae,Falcons and caracaras,Falco deiroleucus,Orange-breasted Falcon,0,0,459.56,0.998392073
+Falconiformes,Falconidae,Falcons and caracaras,Falco subbuteo,Eurasian Hobby,70,0,208.17,0.891233202
+Falconiformes,Falconidae,Falcons and caracaras,Falco cuvierii,African Hobby,60,0,182.2,0.815175997
+Falconiformes,Falconidae,Falcons and caracaras,Falco severus,Oriental Hobby,30,0,200.64,0.825317771
+Falconiformes,Falconidae,Falcons and caracaras,Falco longipennis,Australian Hobby,30,0,249.81,0.92664093
+Falconiformes,Falconidae,Falcons and caracaras,Falco novaeseelandiae,New Zealand Falcon,10,40,418.6,0.787847636
+Falconiformes,Falconidae,Falcons and caracaras,Falco hypoleucos,Grey Falcon,20,40,457.2,0.898803476
+Falconiformes,Falconidae,Falcons and caracaras,Falco subniger,Black Falcon,30,40,776.04,0.999826784
+Falconiformes,Falconidae,Falcons and caracaras,Falco biarmicus,Lanner Falcon,10,30,606.09,0.997895982
+Falconiformes,Falconidae,Falcons and caracaras,Falco jugger,Laggar Falcon,10,40,755,0.999677795
+Falconiformes,Falconidae,Falcons and caracaras,Falco cherrug,Saker Falcon,0,70,961.21,0.999843797
+Falconiformes,Falconidae,Falcons and caracaras,Falco rusticolus,Gyr Falcon,0,70,1431.72,0.999999987
+Falconiformes,Falconidae,Falcons and caracaras,Falco mexicanus,Prairie Falcon,0,70,713.07,0.978148672
+Falconiformes,Falconidae,Falcons and caracaras,Falco peregrinus,Peregrine Falcon,10,20,759.95,0.999967654
+Falconiformes,Falconidae,Falcons and caracaras,Falco fasciinucha,Taita Falcon,10,0,254.69,0.919368676
+Accipitriformes,Cathartidae,New World vultures,Coragyps atratus,Black Vulture,0,100,1881.69,1
+Accipitriformes,Cathartidae,New World vultures,Cathartes aura,Turkey Vulture,0,100,1518.24,0.999999939
+Accipitriformes,Cathartidae,New World vultures,Cathartes burrovianus,Lesser Yellow-headed Vulture,0,100,935,0.992896226
+Accipitriformes,Cathartidae,New World vultures,Cathartes melambrotus,Greater Yellow-headed Vulture,0,100,1373,0.999998878
+Accipitriformes,Cathartidae,New World vultures,Gymnogyps californianus,California Condor,0,100,8442.74,1
+Accipitriformes,Cathartidae,New World vultures,Vultur gryphus,Andean Condor,0,100,11236.1,1
+Accipitriformes,Cathartidae,New World vultures,Sarcoramphus papa,King Vulture,0,100,3400,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circaetus beaudouini,Beaudouin's Snake-eagle,0,60,1539.2,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Accipiter toussenelii,Red-chested Goshawk,10,33,249.29,0.213459012
+Strigiformes,Strigidae,Owls,Bubo cinerascens,Greyish Eagle-Owl,40,70,499.99,0.484954544
+Strigiformes,Strigidae,Owls,Glaucidium nubicola,Cloud-forest Pygmy-owl,50,90,77.53,2.46823E-05
+Strigiformes,Strigidae,Owls,Ptilopsis granti,Southern White-faced Owl,60,90,214.42,0.000421361
+Strigiformes,Strigidae,Owls,Strix chacoensis,Chaco Owl,30,70,330,0.027652422
+Strigiformes,Strigidae,Owls,Bubo magellanicus,Lesser Horned Owl,10,90,1166.38,0.999978929
+Strigiformes,Strigidae,Owls,Otus moheliensis,Moheli Scops-owl,100,60,104.97,0.001906458
+Strigiformes,Strigidae,Owls,Glaucidium costaricanum,Costa Rican Pygmy-owl,60,90,65.99,2.16561E-05
+Strigiformes,Strigidae,Owls,Megascops colombianus,Colombian Screech-owl,50,0,172,0.764947804
+Strigiformes,Strigidae,Owls,Otus alius,Nicobar Scops-owl,50,40,123.28,0.014855766
+Strigiformes,Strigidae,Owls,Megascops petersoni,Cinnamon Screech-owl,90,0,100,0.534942945
+Strigiformes,Strigidae,Owls,Otus collari,Sangihe Scops-owl,90,40,81.91,0.00973929
+Falconiformes,Falconidae,Falcons and caracaras,Micrastur mintoni,Cryptic Forest-falcon,50,0,209.5,0.87324942
+Strigiformes,Strigidae,Owls,Ninox burhani,Togian Hawk-owl,70,30,99,0.032926395
+Strigiformes,Strigidae,Owls,Otus thilohoffmanni,Serendib Scops-owl,100,50,110.2,0.00633066
+Strigiformes,Strigidae,Owls,Ninox sumbaensis,Little Sumba Hawk-owl,70,30,90,0.027652422
+Strigiformes,Strigidae,Owls,Ninox ios,Cinnabar Hawk-owl,70,30,86,0.025580788
+Strigiformes,Strigidae,Owls,Glaucidium mooreorum,Pernambuco Pygmy-owl,50,80,51,4.36179E-05
+Strigiformes,Strigidae,Owls,Otus siaoensis,Siau Scops-owl,90,40,165,0.049266006
+Strigiformes,Strigidae,Owls,Otus mayottensis,Mayotte Scops-owl,90,10,101,0.280900343
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Chondrohierax wilsonii,Cuban Kite,80,0,286.07,0.977277166
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Gyps tenuirostris,Slender-billed Vulture,0,100,5515,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Circus macrosceles,Madagascar Harrier,10,60,663.6,0.982224521
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Buteogallus gundlachii,Cuban Black Hawk,30,40,975.09,0.999996766
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Aquila hastata,Indian Spotted Eagle,20,20,1359.41,1
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Hieraaetus weiskei,New Guinea Hawk-eagle,10,70,775.05,0.99418221
+Accipitriformes,Accipitridae,"Osprey, kites, hawks and eagles",Nisaetus floris,Flores Hawk-eagle,0,50,1475.12,0.999999999
+Falconiformes,Falconidae,Falcons and caracaras,Caracara cheriway,Crested Caracara,20,100,1078.62,0.999668781
+Falconiformes,Falconidae,Falcons and caracaras,Falco pelegrinoides,Barbary Falcon,10,20,759.95,0.999967654
