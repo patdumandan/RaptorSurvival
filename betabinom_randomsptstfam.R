@@ -152,7 +152,7 @@ generated quantities {
 
 saveRDS(surv_mod_trial_spstfam_fin, file="meta_survival_spstfam_fin.RDS")
 post=rstan::extract(surv_mod_trial_spst_rand)$pred_y #predicted survival estimate
-print(surv_mod_trial_spstfam_fin, pars=c("alpha", "mass_eff", "est_eff","diet_eff", "for_eff", "alpha_sp"))
+print(surv_mod_trial_spstfam_fin, pars=c("alpha", "mass_eff", "est_eff","diet_eff", "for_eff", "alpha_fam"))
 
 #model output visualization
 logq=rstan::extract(surv_mod_trial_spstfam_fin)$log_lik
@@ -162,7 +162,7 @@ points(surv$survival.est~surv$Average.mass..kg., col="black", pch=19)
 
 
 #sample predictions for species:alpha+mass_eff+est_eff+diet_eff+for_eff+alpha_sp
-plogis(-2.35+0.02+-0.07+-0.02+-0.10+1.05)
+plogis(-2.7+0.02+-0.06+0.01+-0.11+1.05)
 
 #sample predictions for family:alpha+mass_eff+est_eff+diet_eff+for_eff+alpha_fam
-plogis(-2.35+0.02+-0.07+-0.02+-0.10+0.26)
+plogis(-2.7+0.02+-0.06+0.01+-0.11+0.28)
