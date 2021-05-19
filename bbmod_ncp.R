@@ -124,4 +124,4 @@ post=extract(surv_mod)$pred_surv
 matplot(surv$Average.mass..kg.,t(post), type="l",col="grey", xlab="average mass (kg)", ylab="survival estimate")
 points(surv$survival.est~surv$Average.mass..kg., col="black", pch=19)
 
-print(surv_mod, pars=c("alpha", "alpha_sp", "mass_eff"))
+print(surv_mod, pars=c("alpha", "mass_eff", "alpha_sp", "alpha_fam", "alpha_st"))
