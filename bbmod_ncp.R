@@ -6,15 +6,25 @@ options(mc.cores = parallel::detectCores())
 surv=read.csv("https://raw.githubusercontent.com/patdumandan/RaptorSurvival/master/surv1.csv")
 
 surv$mass=(surv$Average.mass..kg.-mean(surv$Average.mass..kg.))/(2*sd(surv$Average.mass..kg.))
-surv$forage=(surv$ForStrat.ground-mean(surv$ForStrat.ground))/(2*sd(surv$ForStrat.ground))
-surv$diet=(surv$Diet.Inv-mean(surv$Diet.Inv))/(2*sd(surv$Diet.Inv))
-surv$est.type<-ifelse(surv$death.type=="direct", 0, 1) #apparent (1) /true (0) survival estimate
+surv$estimate<-ifelse(surv$death_type=="direct", 0, 1) #apparent (1) /true (0) survival estimate
 surv$spcode=as.integer(surv$Species)
 surv$famcode=as.integer(surv$family)
 surv$stcode=as.integer(surv$Reference)
 
 surv<-surv[which(surv$EnglishName!="Andean Condor"),] 
+str(surv)
 
+dat_list=list( N=length(surv$Reference),
+               y=surv$estimated.survived,    
+               n=surv$sample.size,     
+               mass=surv$mass,
+               species=surv$spcode,
+               family=surv$famcode,
+               study=surv$stcode,
+               Nsp=length(unique(surv$spcode)),
+               Nst=length(unique(surv$stcode)),
+               Nfam=length(unique(surv$famcode)),
+               death_type=surv$estimate)
 
 surv_mod=stan(model_code="
 
@@ -107,24 +117,11 @@ surv_mod=stan(model_code="
   pred_surv ~ beta(A, B); // survival estimate, beta dist.
   y~binomial(n, pred_surv); //no.of survivors drawn from binomial dist; based on sample size and reported survival estimate
  
-  }", 
-data=dat_list, chains=4, iter=3000)
-
-dat_list=list( N=length(surv$Reference),
-               y=surv$estimated.survived,    
-               n=surv$sample.size,     
-               mass=surv$mass,
-               species=surv$spcode,
-               family=surv$famcode,
-               study=surv$stcode,
-              Nsp=length(unique(surv$spcode)),
-              Nst=length(unique(surv$stcode)),
-              Nfam=length(unique(surv$famcode)),
-              death_type=surv$est.type)
+  }", data=dat_list, chains=4, iter=3000)
 
 saveRDS(surv_mod, file="bbmod_ncp.RDS")
 post=extract(surv_mod)$pred_surv
-matplot(surv$Average.mass..kg.,t(post), type="l",col="grey", xlab="average mass (g)", ylab="survival estimate")
+matplot(surv$Average.mass..kg.,t(post), type="l",col="grey", xlab="average mass (kg)", ylab="survival estimate")
 points(surv$survival.est~surv$Average.mass..kg., col="black", pch=19)
 
 print(surv_mod, pars=c("alpha", "alpha_sp", "mass_eff"))
