@@ -1,4 +1,5 @@
-data{
+new_mod=stan(model_code = "
+             data{
 
   int<lower=0> N; // no.of obs
   int <lower=0> y[N];       // survivors
@@ -97,4 +98,14 @@ generated quantities {
     for (x in 1:N){
     log_lik[x]= beta_lpdf(pred_surv[x]| A[x], B[x]);}
    
-  }
+  }",data=data_list,chains=4, iter=3000, control=list(adapt_delta=0.99))
+  
+
+data_list=list(N=length(surv$Species), y=surv$estimated.survived, n=surv$sample.size,
+               diet=surv$diet, forage=surv$forage,
+               mass=surv$mass, death_type=surv$estimate,
+               species=surv$spcode,family=surv$famcode, study=surv$stcode,
+               Nfam=length(unique(surv$family)), Nst=length(unique(surv$Reference)), Nsp=length(unique(surv$EnglishName))) 
+
+print(new_mod, pars=c("alpha", "alpha_sp"))
+saveRDS(new_mod, "new_model.RDS")
