@@ -1,0 +1,107 @@
+Reference,Species,mass,survival mean,survival SE,sex
+Owen-Smith and Mason 2005,Aepyceros melampus,46.5,0.822,0.154,B
+Modafferi and Becker 1997,Alces alces,261,0.829,0.039,M
+Modafferi and Becker 1997,Alces alces,190,0.917,0.013,F
+To?¨go et al. 1997,Capra ibex ibex,87.4,0.97,0.001,M
+To?¨go et al. 1997,Capra ibex ibex,53,0.97,0.001,F
+Festa-Blanchet et al. 2003,Capreolus capreolus,25.9,0.837,0.022,M
+Festa-Blanchet et al. 2003,Capreolus capreolus,24.1,0.866,0.022,F
+Gaillard et al. 1993,,23.9,0.819,0.03,M
+Gaillard et al. 1993,,22.3,0.927,0.017,F
+Gaillard et al. 1993,,23.9,0.864,0.026,M
+Gaillard et al. 1993,,22.3,0.967,0.014,F
+Loison and Langvatn 1998,Cervus elaphus,139,0.94,0.017,M
+Loison and Langvatn 1998,Cervus elaphus,76.2,0.933,0.01,F
+Uno and Kaji 2006,Cervus nippon,23.25,0.779,0.097,B
+Owen-Smith and Mason 2005,Connochaetes taurinus,193.5,0.939,0.053,B
+Owen-Smith and Mason 2005,Damaliscus lunatus,136,0.819,0.061,B
+Owen-Smith and Mason 2005,Giraffa camelopardadis,1009,0.907,0.058,B
+Owen-Smith and Mason 2005,Hippotragus niger,230,0.861,0.05,B
+Owen-Smith and Mason 2005,Kobus ellipsiprymnus,132,0.885,0.136,B
+Festa-Blanchet et al. 2003,Oreamnos americanus,61.5,0.923,0.0143,M
+Festa-Blanchet et al. 2003,Oreamnos americanus,61.5,0.923,0.0143,F
+Festa-Blanchet et al. 2003,Ovis candensis,100,0.846,0.0148,M
+Festa-Blanchet et al. 2003,Ovis candensis,60,0.911,0.0083,F
+Owen-Smith and Mason 2005,Phacochoerus aethiopicus,40.25,0.736,0.147,B
+Fuller et al. 2002,Tayassu pecari,28,0.94,0.035,M
+Fuller et al. 2002,Tayassu pecari,28,0.78,0.05,F
+Hellgren et al. 1995,Tayassu tajacu,20.6,0.19,0.17,M
+Hellgren et al. 1995,Tayassu tajacu,21.8,0.87,0.05,F
+Owen-Smith and Mason 2005,Tragelaphus strepsiceros,192.5,0.884,0.095,B
+Durant et al. 2004,Acinonyx jubatus,51.6,0.6837,0.2133,M
+Durant et al. 2004,Acinonyx jubatus,45.5,0.8516,0.0639,F
+Beauplet et al. 2006,Arctocephalus tropicalis,54,0.94,0.095,F
+Beauplet et al. 2006,Arctocephalus tropicalis,54,0.98,0.074,F
+Cameron and Siniff 2004,Leptonychotes weddellii,336,0.921,0.038,M
+Cameron and Siniff 2004,Leptonychotes weddellii,320,0.928,0.033,F
+Bull and Heater 2001,Martes americana,1305,0.63,0.12,M
+Bull and Heater 2001,Martes americana,0.85,0.63,0.12,F
+Baker and Thompson 2006,Monachus schauinslandi,185,0.903,0.014,M
+Baker and Thompson 2006,Monachus schauinslandi,172,0.926,0.011,F
+Baker and Thompson 2006,Monachus schauinslandi,185,0.934,0.011,B
+Baker and Thompson 2006,Monachus schauinslandi,185,0.958,0.008,B
+Gehrt and Fritzell 1999,Procyon lotor,8.6,0.84,0.0047,M
+Gehrt and Fritzell 1999,Procyon lotor,11.8,0.84,0.0047,F
+Sorensen and Powell 1998,Ursus americanus,125,0.73,0.06,M
+Sorensen and Powell 1998,Ursus americanus,128,0.78,0.06,F
+Haroldson et al. 2006,Ursus arctos horribilis,243,0.78,0.06,M
+Haroldson et al. 2006,Ursus arctos horribilis,114,0.874,0.0275,F
+Taylor et al. 2005,Ursus maritimus,505,0.947,0.022,M
+Taylor et al. 2005,Ursus maritimus,215,0.953,0.02,F
+Ramp et al. 2006,Balaenoptera musculus,86005,0.9753,0.0067,M
+Ramp et al. 2006,,99336,0.9761,0.0066,F
+Mizroch et al. 2004,Megaptera novaeangliae,40000,0.963,0.0085,B
+Hitchcock et al. 1984,Eptesicus fuscus,0.0225,0.697,0.061,M
+Hitchcock et al. 1984,Eptesicus fuscus,0.0225,0.465,0.061,F
+Hitchcock et al. 1984,Myotis leibii,0.0038,0.757,0.111,M
+Hitchcock et al. 1984,,0.0038,0.421,0.071,F
+Hitchcock et al. 1984,Myotis lucifugus,0.0096,0.816,0.01,M
+Hitchcock et al. 1984,Myotis lucifugus,0.00768,0.708,0.022,F
+Sendor and Simon 2003,Pipistrellus pipistrellus,0.0036,0.799,0.051,M
+Sendor and Simon 2003,Pipistrellus pipistrellus,0.0043,0.799,0.051,F
+Boyd and Stebbings 1989,Plecotus auritus,0.00803,0.674,0.068,M
+Boyd and Stebbings 1989,Plecotus auritus,0.0079,0.773,0.055,F
+Kamler and Gipson 2004,Didelphis virginiana,2.8,0.06,0.0475,M
+Kamler and Gipson 2004,Didelphis virginiana,1.9,0.06,0.0475,F
+Kasparian et al. 2004,Didelphis virginiana,1.7,0.72,0.07,M
+Kasparian et al. 2004,Didelphis virginiana,2.3,0.71,0.057,F
+Kasparian et al. 2004,Didelphis virginiana,1.7,0.48,0.091,M
+Kasparian et al. 2004,Didelphis virginiana,2.3,0.711,0.089,F
+Clancy and Croft 1992,Macropus robustus erubescens,29.5,0.955,0.0425,B
+Clancy and Croft 1992,Macropus robustus erubescens,29.5,0.868,0.066,B
+Clancy and Croft 1992,Macropus robustus erubescens,,0.742,0.081,B
+Fisher et al. 2000,Onychogalea fraenata,5.7,0.8,0.0825,M
+Fisher et al. 2000,Onychogalea fraenata,3.4,0.8,0.0825,F
+Lindenmayer et al. 1998,Trichosurus cunninghami,2.87,0.975,0.008,M
+Lindenmayer et al. 1998,Trichosurus cunninghami,2.99,0.972,0.007,F
+Marboutin and Hansen 1998,Lepus europaeus,3.43,0.55,0.0275,M
+Marboutin and Hansen 1998,Lepus europaeus,3.23,0.5,0.03,F
+Pardon et al. 2003,Isodon macrourus,1.275,0.756,0.029,B
+Owen-Smith and Mason 2005,Equus burchelli,307.5,0.954,0.009,B
+Moses and Boutin 2001,Clethrionomys gapperi,0.021,0.6,0.026,M
+Moses and Boutin 2001,Clethrionomys gapperi,0.0228,0.72,0.03,F
+Schaub and Vaterlaus-Schlegel 2001,Eliomys quercinus,0.106,0.38,0.0675,M
+Schaub and Vaterlaus-Schlegel 2001,Eliomys quercinus,0.0958,0.38,0.0675,F
+Hale and Fuller 1996,Erethizon dorsatum,8.9,0.56,0.12,M
+Hale and Fuller 1996,Erethizon dorsatum,7.1,0.74,0.08,F
+Ozgul et al. 2006,Marmota flaviventris,5.67,0.76,0.02,M
+Ozgul et al. 2006,Marmota flaviventris,5.67,0.64,0.035,F
+Lee and Tietje 2005,Neotoma fuscipes,0.191,0.673,0.022,F
+Hanley and Barnard 1991,Peromyscus keeni sitkensis,0.0283,0.27,0.08,B
+Moses and Boutin 2001,Peromyscus maniculatus,0.0162,0.74,0.026,M
+Moses and Boutin 2001,Peromyscus maniculatus,0.0169,0.8,0.018,F
+Lima et al. 2001,Phylottis darwini,0.0513,0.68,0.04,M
+Lima et al. 2001,Phylottis darwini,0.0513,0.63,0.04,F
+Lima et al. 2001,Phylottis darwini,0.0513,0.62,0.02,M
+Lima et al. 2001,Phylottis darwini,0.0513,0.49,0.04,F
+Lima et al. 2001,Phylottis darwini,0.0513,0.73,0.02,M
+Lima et al. 2001,Phylottis darwini,0.0513,0.76,0.03,F
+Lima et al. 2001,Phylottis darwini,0.0513,0.57,0.04,M
+Lima et al. 2001,Phylottis darwini,0.0513,0.64,0.04,F
+Nichols and Conley 1982,Zapus hudsonius,0.284,0.84,0.06,B
+Langtimm et al. 1998,Trichechus manatus latirostris,1034.5,0.961,0.023,B
+Langtimm et al. 1998,Trichechus manatus latirostris,1034.5,0.965,0.006,B
+Langtimm et al. 1998,Trichechus manatus latirostris,1034.5,0.907,0.0098,B
+Getz et al. 2004,Blarina brevicauda,0.0169,0.466,0.014,B
+Getz et al. 2004,Blarina brevicauda,0.0169,0.331,0.024,B
+Getz et al. 2004,Blarina brevicauda,0.0169,0.398,0.022,B
